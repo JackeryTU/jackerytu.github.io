@@ -100,6 +100,8 @@ theme: redefine
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
+# Deployment
+## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
 search:
