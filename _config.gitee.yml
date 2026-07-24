@@ -1,5 +1,5 @@
 url: https://jackerytu.gitee.io/blog
 deploy:
   type: git
-  repo: https://gitee.com/JackeryTU/blog.git
+  repo: git@gitee.com:JackeryTU/blog.git
   branch: master
