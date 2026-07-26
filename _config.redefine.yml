@@ -27,7 +27,7 @@ defaults:
   # Favicon
   favicon: /images/headphoto.png
   # Site logo
-  logo: /images/headphoto.png
+  logo: /images/head.JPG
   # Site avatar
   avatar: /images/headphoto.png
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
@@ -437,10 +437,10 @@ footer:
 # Docs: https://redefine-docs.ohevan.com/inject
 inject:
   # Whether to enable inject
-  enable: false
+  enable: true
   # Inject custom head html code
-  head: 
-    -
+  head:
+    - '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.47/dist/katex.min.css" crossorigin="anonymous">'
     -
   # Inject custom footer html code
   footer:
