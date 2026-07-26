@@ -5,7 +5,7 @@ keywords: null
 author: John Doe
 language: en
 timezone: ''
-url: https://jackerytu.gitee.io/blog
+url: https://jackerytu.github.io
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
 pretty_urls:
@@ -61,8 +61,8 @@ ignore: null
 theme: redefine
 deploy:
   type: git
-  repo: git@gitee.com:JackeryTU/blog.git
-  branch: master
+  repo: git@github.com:JackeryTU/jackerytu.github.io.git
+  branch: main
 search:
   path: search.xml
   field: post
